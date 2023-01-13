@@ -1,8 +1,6 @@
-# Project Title - EDA on The Exportation of Plantation in Sarawak
+# Asteroid Dataset
 --
-In this project, we are going to do an exploratory data analysis of the Property Listings in Kuala Lumpur. We have found from [data](https://www.data.gov.my/data/ms_MY/dataset/pengeluaran-tanaman-buah-mengikut-daerah-di-sarawak)
-
-We wish to compare the compare the residential property price in Kuala Lumpur.between different locations.
+In this project, we are going to do an exploratory data analysis of the Dataset which is officially maintained by Jet Propulsion Laboratory of California Institute of Technology. [data](https://www.kaggle.com/datasets/sakhawat18/asteroid-dataset)
 
 ## The technique/tool used we used in this EDA such as:
 
@@ -18,8 +16,28 @@ We wish to compare the compare the residential property price in Kuala Lumpur.be
 - CHONG KAI ZHE A20EC0186
 - RASMIN KAUR SANDHU A19ET0216
 --
-# Inference and Conclusion
+### Basic Column Defination
+| Acronym | Description |
+| --- | --- |
+| **SPK-ID** |    Object primary SPK-ID |
+|**Object ID** | Object internal database ID  |
+| **Object fullname** | Object full name/designation |
+| **pdes** |  Object primary designation |
+| **name** |   Object IAU name |
+| **NEO** |  Near-Earth Object (NEO) flag |
+| **PHA** |     Potentially Hazardous Asteroid (PHA) flag |
+|**H** | Absolute magnitude parameter  |
+| **Diameter** | object diameter (from equivalent sphere) km Unit |
+| **Albedo** |  Geometric albedo |
+| **Diameter_sigma** |  1-sigma uncertainty in object diameter km Unit |
+| **Orbit_id** |  Orbit solution ID |
+| **Epoch** |    Epoch of osculation in modified Julian day form |
+|**Equinox** | Equinox of reference frame  |
+| **e** | Eccentricity |
+| **a** |  Semi-major axis au Unit |
+| **q** |  perihelion distance au Unit |
+| **i** |  inclination; angle with respect to x-y ecliptic plane |
+| **tp** |    Time of perihelion passage TDB Unit |
+|**moid_ld** | Earth Minimum Orbit Intersection Distance au Unit  |
 
-Inferences: Sarawak has been exporting fruit since 2015, There are total of 43 Daerah has been working of the exportation of fruit. Among all the daerah, Serian has been exported the most fruit, with the total of 15353 of fruit being exported. In the dataset, we also discover that Sarawak has only exported fruit as the main source.
 
-Conclusion In this dataset, we have discover that Serian has been exported the most fruit throughtout Sarawak. Not only that, Cempedak, Durian, Langsat , Limau Manis and Mangga has the highest frequency for the exportation.
